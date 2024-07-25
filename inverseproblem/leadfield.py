@@ -40,7 +40,7 @@ def compute_forward_solution():
                                  add_dist=False,
                                  subjects_dir=subjects_dir)
 
-    trans = 'fsaverage'  # ?
+    trans = 'fsaverage'  # ? here lets add this 
     fwd = mne.make_forward_solution(raw.info,
                                     trans=trans,
                                     src=src,
